@@ -74,4 +74,4 @@ def get_price_from_aicoin(coin_name, key_filter=""):
 
 if __name__ == "__main__":
     # print(get_price_from_aicoin("usdt", "usdtcnyt:bitasset"))
-    print(get_avg_usdt_price_from_mytoken_seller())
+    print(get_usdt_price_banner_from_aicoin())
