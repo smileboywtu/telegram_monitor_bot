@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-02-26 11:46:07
- * @LastEditTime: 2020-05-30 22:41:57
+ * @LastEditTime: 2020-05-30 23:05:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /earn_money/telegram_bots/README.md
@@ -74,7 +74,13 @@ Telegram 如果需要主动获取消息，比如不等机器人推送自己获�
 
 ### 添加监控
 
-参考 /timer.py
+参考 /timer.py,发送消息的时候需要填写你的channel id,具体的获取办法是通过 bot 的测试api:
+
+```text
+https://api.telegram.org/bot{your_bot_token}/sendMessage?chat_id=@{your_channel_name}&text=123
+```
+
+消息发送成功之后，你可以看到自己频道的 ID。
 
 ## 扩展阅读
 
